@@ -1,0 +1,27 @@
+# Créer ou modifier le fichier .gitignore
+echo "# macOS system files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# RISC-V / RARS specific
+*.class
+*.jar
+*.war
+*.ear
+*.txt~
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Build outputs
+bin/
+out/
+build/" > .gitignore
